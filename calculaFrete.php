@@ -83,6 +83,8 @@ foreach($cod_tipoFrete as $cod_frete) {
 		$valores[$cod_frete]['valor'] = $tval['valor'];
 		$valores[$cod_frete]['valor_minimo'] = $tval['valor_minimo'];
 		$valores[$cod_frete]['vtotal'] = $tval['valor_minimo'] + $acrescimo + $mp_valor + $ar_valor + $vd_valor;
+		$valores[$cod_frete]['acrescimo_dim'] = 0;
+		$valores[$cod_frete]['acrescimo_peso'] = 0;
 	}
 	else $valores[$cod_frete]['valor'] = 0;
 }
