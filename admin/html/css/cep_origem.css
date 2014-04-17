@@ -1,0 +1,148 @@
+
+.corigem_lista {
+	margin-left: 30px;
+	float: left;
+	width: 310px;
+	height: 310px;
+	overflow: auto;
+	border: 1px solid #c6c6c6;
+}
+.corigem_lista .head {
+	width: 100%;
+	text-align: center;
+	height: 32px;
+	line-height: 32px;
+	vertical-align: center;
+	border-bottom: 1px solid #000;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	background-color: #efefef;
+}
+.corigem_lista .info_titulo {
+	width: 220px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #00f;
+	text-align: center;
+}
+.corigem_lista .items_titulos {
+	margin-top: 10px;
+	margin-bottom: 1px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 260px;
+	height: 22px;
+	background-color: #c9c992;
+	border: 1px solid #c8c8c2;
+}
+.corigem_lista .items_titulos .margin {
+	width: 240px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.corigem_lista .lista_items {
+	width: 260px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 184px;
+	border: 1px solid #a6a6a6;
+	background-color: #ffffef;
+}
+.corigem_lista .lista_item {
+	width: 240px;
+	height: 35px;
+	line-height: 35px;
+	vertical-align: middle;
+	border-bottom: 2px solid #ccc;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.corigem_lista .info_nome {
+	float: left;
+	width: 55px;
+}
+.corigem_lista .info_total {
+	float: left;
+	width: 125px;
+	text-align: center;
+}
+.corigem_lista .acoes {
+	float: left;
+	width: 60px;
+	height: 100%;
+}
+.corigem_lista .acoes img { cursor: pointer; }
+.corigem_lista .editar {
+	height: 100%;
+	width: 28px;
+	float: left;
+	text-align: center;
+}
+.corigem_lista .editar span { display: inline-block; height: 100%; }
+.corigem_lista .excluir {
+	height: 100%;
+	width: 28px;
+	float: right;
+	text-align: center;
+}
+.corigem_lista .excluir span { display: inline-block; height: 100%; }
+.corigem_editform, .corigem_addform {
+	padding: 6px;
+	width: 210px;
+	height: 94px;
+	background-color: #a8a884;
+	border: 3px solid #213;
+	display: none;
+	position: absolute;
+	top: 125px;
+	left: 430px;
+}
+.corigem_editform { width: 236px; }
+.corigem_editform .form_tit, .corigem_addform .form_tit {
+	width: 100%;
+	height: 20px;
+	color: #eee;
+	font-weight: bold;
+}
+.corigem_editform .form_i, .corigem_addform .form_i {
+	width: 100%;
+	height: 26px;
+}
+#edceporigem, #nceporigem {
+	width: 90px;
+	border: 1px solid #000;
+	background-color: #fff;
+}
+
+.corigem_editform .editar, .corigem_addform .adicionar {
+	cursor: pointer;
+	margin-left: 10px;
+	width: 80px;
+	border: 2px solid #fff;
+	background-color: #ccc;
+	font-weight: bold;
+}
+.corigem_editform .editar { width: 128px; font-size: 14px; }
+.corigem_editform .form_cancelar, .corigem_addform .form_cancelar {
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+}
+.corigem_editform .cancelar, .corigem_addform .cancelar {
+	cursor: pointer;
+	width: 116px;
+	height: 26px;
+	line-height: 26px;
+	vertical-align: middle;
+	border: 2px solid #fff;
+	background-color: #ccc;
+	font-weight: bold;
+	font-size: 14px;
+}
+#add_ceporigem {
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 22px;
+}

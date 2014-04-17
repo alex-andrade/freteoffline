@@ -1,0 +1,81 @@
+
+.atualizacoes_lista {
+	margin-left: 40px;
+	float: left;
+	width: 296px;
+	height: 310px;
+	border: 1px solid #c3c3c3;
+}
+.atualizacoes_lista .head {
+	width: 100%;
+	text-align: center;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #000;
+	vertical-align: middle;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	background-color: #efefef;
+}
+.atualizacoes_lista .info_ok {
+	width: 240px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #00f;
+	text-align: center;
+}
+.atualizacoes_lista .info_aviso {
+	width: 240px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #f00;
+	text-align: center;
+}
+.atualizacoes_lista .items_titulos {
+	margin-top: 10px;
+	margin-bottom: 1px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 220px;
+	height: 22px;
+	background-color: #c9c992;
+	border: 1px solid #c8c8c2;
+}
+.atualizacoes_lista .items_titulos .margin {
+	width: 190px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.atualizacoes_lista .lista_items {
+	overflow: auto;
+	margin-right: auto;
+	margin-left: auto;
+	width: 220px;
+	height: 184px;
+	border: 1px solid #ccc;
+	background-color: #ffffef;
+}
+.atualizacoes_lista .lista_item {
+	width: 190px;
+	height: 32px;
+	line-height: 32px;
+	vertical-align: middle;
+	border-bottom: 2px solid #ccc;
+	margin-top: 3px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.atualizacoes_lista .item_info_nome {
+	float: left;
+	width: 80px;
+}
+.atualizacoes_lista .item_info_total {
+	float: left;
+	width: 30px;
+	text-align: center;
+}
+.atualizacoes_lista .item_acao_atualizar {
+	float: right;
+	text-align: center;
+}

@@ -1,0 +1,26 @@
+
+
+--- Instalação ---
+1. Descompacte arquivos em um diretório web
+2. Crie uma base de dados vazia no mysql
+3. Configure os dados de login do banco de dados no arquivo config.php e no arquivo admin/inc/database.php
+4. Importe para sua nova base de dados vazia os arquivos tabela.sql e frete_cepcentrosp.sql, que estão na pasta "admin/install", nesta ordem, um de cada vez. (coisa simples de se fazer usando o PHPMyAdmin)
+5. Acesse o painel, modifique o seu cep de origem ou cadastre um novo, cadastre também o método que desejar, e em seguida já atualize os dados (como sugerido no painel de atualizações).
+6. Não esqueça de proteger seu diretório "admin" com um .htaccess ou algo semelhante!
+7. Pronto. Agora configure sua(s) loja(s) para usar seu novo web service de frete
+
+
+O webservice deve ser acessado com a requisição no mesmo formato dos Correios, usando a URL a onde você instalou o sistema.
+
+Por ex.: Se instalou em "www.meudominio.com.br/frete/" deve-se usar a url "www.meudominio.com.br/frete/calculaFrete.php" com os parâmetros: nVlAltura, nVlLargura, nVlComprimento, nVlPeso, sCepOrigem, sCepDestino, nVlValorDeclarado, sCdAvisoRecebimento, sCdMaoPropria, nCdServico.
+
+Exemplo: "www.meudominio.com.br/frete/calculaFrete.php?nVlAltura=20&nVlLargura=20&nVlComprimento=20&nVlPeso=3.0&sCepOrigem=04542000&sCepDestino=17013180&nVlValorDeclarado=0&nVlsCdAvisoRecebimento=N&sCdMaoPropria=N&nCdServico=41106"
+
+
+
+* Para usar no MAGENTO por exemplo, você deve continuar usando o módulo do Pedro Teixeira. Basta alterar uma linha no arquivo: app/code/community/PedroTeixeira/Correios/etc/config.xml.
+	Procure por:
+		<url_ws_correios>http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx</url_ws_correios>
+	E troque por:
+		<url_ws_correios>http://www.meudominio.com.br/frete/calculaFrete.php</url_ws_correios>
+	* Claro, substitua pela sua URL verdadeira

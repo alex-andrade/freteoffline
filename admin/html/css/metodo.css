@@ -1,0 +1,184 @@
+
+.metodos_lista {
+	width: 300px;
+	margin-left: 30px;
+	height: 310px;
+	float: left;
+	border: 1px solid #c6c6c6;
+}
+.metodos_lista .head {
+	width: 100%;
+	text-align: center;
+	height: 32px;
+	line-height: 32px;
+	vertical-align: middle;
+	border-bottom: 1px solid #000;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	background-color: #efefef;
+}
+.metodos_lista .info_titulo {
+	width: 180px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #00f;
+	text-align: center;
+}
+.metodos_lista .items_titulos {
+	margin-top: 10px;
+	margin-bottom: 1px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 210px;
+	height: 22px;
+	background-color: #c9c992;
+	border: 1px solid #c8c8c2;
+}
+.metodos_lista .items_titulos .margin {
+	width: 190px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.metodos_lista .lista_items {
+	overflow: auto;
+	width: 210px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 184px;
+	border: 1px solid #a6a6a6;
+	background-color: #ffffee;
+}
+.metodos_lista .lista_item {
+	width: 190px;
+	height: 35px;
+	line-height: 35px;
+	vertical-align: middle;
+	border-bottom: 2px solid #ccc;
+	margin-right: auto;
+	margin-left: auto;
+}
+.metodos_lista .info_nome {
+	float: left;
+	width: 130px;
+	height: 100%;
+	overflow: hidden;
+}
+.metodos_lista .acoes {
+	float: right;
+	width: 58px;
+	height: 100%;
+}
+.metodos_lista .acoes img { line-height: 35px; vertical-align: middle; cursor: pointer; }
+.metodos_lista .editar {
+	width: 28px;
+	height: 35px;
+	float: left;
+	text-align: center;
+}
+.metodos_lista .editar span {
+	display: inline-block;
+	height: 100%;
+}
+.metodos_lista .excluir {
+	width: 28px;
+	float: right;
+	text-align: center;
+}
+.metodos_lista .excluir span {
+	display: inline-block;
+	height: 100%;
+}
+.metodo_form {
+        padding: 10px;
+        width: 280px;
+        height: 180px;
+        background-color: #a8a884;
+        border: 3px solid #213;
+        display: none;
+        position: absolute;
+        top: 125px;
+        left: 690px;
+}
+.metodo_form_tall { height: 380px; }
+.metodo_form_xtall { height: 450px; }
+.metodo_form .form_tit {
+        width: 100%;
+        height: 20px;
+        color: #eee;
+        font-weight: bold;
+	margin-bottom: 7px;
+}
+.metodo_form .form_i {
+	text-align: right;
+	height: 26px;
+	margin-right: 42px;
+}
+.textI {
+        width: 120px;
+        border: 1px solid #000;
+        background-color: #fff;
+}
+#troca_configatualiza { cursor: pointer; }
+#config_atualizador {
+	display: none;
+	background-color: #eeecec;
+	padding: 7px;
+	width: 260px;
+}
+.config_atualizador {
+	border: 1px solid #000;
+}
+.config_atualizador .normal { height: 200px; }
+.config_atualizador .tall { heigth: 230px; }
+#metodo_usasenha { 
+	display: none;
+	width: 100%;
+	height: 39px;
+}
+.config_atualizador .form_i { width: 100%; text-align:left; font-size: 12px; color: #341; }
+.config_atualizador input { height: 16px; }
+
+#ca_metodo {
+	display: none;
+}
+.metodo_form .acoes {
+	width: 100%;
+	height: 28px;
+	margin-top: 17px;
+}
+.metodo_form .acao {
+	float: left;
+	margin-left: 20px;
+	width: 90px;
+	height: 100%;
+}
+.metodo_form .adicionar {
+        cursor: pointer;
+        margin-left: 10px;
+        width: 100px;
+	height: 24px;
+        border: 2px solid #fff;
+        background-color: #ccc;
+        font-weight: bold;
+}
+.metodo_form .cancelar {
+        cursor: pointer;
+        margin-left: 10px;
+        width: 100px;
+	  height: 24px;
+        border: 2px solid #fff;
+        background-color: #ccc;
+        font-weight: bold;
+}
+#add_metodo {
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 22px;
+}
+
+#metodo_usasenha .form_i {
+	width:100%;
+	font-size 12px;
+	height: 19px;
+}
